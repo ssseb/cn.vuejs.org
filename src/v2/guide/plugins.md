@@ -63,7 +63,7 @@ MyPlugin.install = function (Vue, options) {
 
   // 2. 添加全局资源
   Vue.directive('my-directive', {
-    bind (el, binding, vnode, oldVnode) {
+    bind (el, binding, vnode) {
       // 逻辑...
     }
     ...
